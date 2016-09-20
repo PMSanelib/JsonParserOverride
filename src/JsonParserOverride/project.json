@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "include": [
+      "JsonTestData"
+    ]
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.0",
+      "type": "platform"
+    },
+    "Newtonsoft.Json": "9.0.1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": { }
+  }
+}
